@@ -26,7 +26,7 @@ parser.add_argument('-s', '--size', default='300',
 parser.add_argument('-d', '--dataset', default='VOC',
                     help='VOC or COCO dataset')
 parser.add_argument(
-    '--basenet', default='./weights/vgg16_reducedfc.pth', help='pretrained base model')
+    '--basenet', default='./weights/RFB512_E_34_4.pth', help='pretrained base model')
 parser.add_argument('--jaccard_threshold', default=0.5,
                     type=float, help='Min Jaccard index for matching')
 parser.add_argument('-b', '--batch_size', default=32,
